@@ -13,5 +13,7 @@ namespace HW._12
         public int Value { get; set; }
         public int Year { get; set; }
         public int Odometr { get; set; }
+        public Motorcycle() { }
+        public Motorcycle(int Id, string Name, string Model, int Value, int Year, int Odometr) { }
     }
 }

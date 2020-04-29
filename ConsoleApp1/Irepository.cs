@@ -6,10 +6,10 @@ namespace HW._12
 {
     interface IRepository
     {
-        Motorcycle GetMotorcycleByID(int id);
-        IEnumerable<Motorcycle> GetMotorcycles();
-        void CreateMotorcycle(Motorcycle item);
-        void UpdateMotorcycle(Motorcycle item);
-        void DeleteMotorcycle(int id);
+        void GetMotorcycleByID();
+        void GetMotorcycles();
+        void CreateMotorcycle();
+        void UpdateMotorcycle();
+        void DeleteMotorcycle();
     }
 }
